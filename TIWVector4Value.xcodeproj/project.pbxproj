@@ -26,10 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		848BAB8013E6F8D500C9FED2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		8492B56713D99A3500B2FF8C /* TIWVector4Value */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TIWVector4Value; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492B56B13D99A3500B2FF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8492B56E13D99A3500B2FF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8492B57113D99A3500B2FF8C /* TIWVector4Value-Prefix.pch */ = {isa = PBXFileReference; path = "TIWVector4Value-Prefix.pch"; sourceTree = "<group>"; };
+		8492B57113D99A3500B2FF8C /* TIWVector4Value-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TIWVector4Value-Prefix.pch"; sourceTree = "<group>"; };
 		8492B57213D99A3500B2FF8C /* TIWVector4Value.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TIWVector4Value.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				8492B56B13D99A3500B2FF8C /* Foundation.framework */,
+				848BAB8013E6F8D500C9FED2 /* Accelerate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,6 +116,7 @@
 		8492B55E13D99A3500B2FF8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "The Interface Works";
 			};
 			buildConfigurationList = 8492B56113D99A3500B2FF8C /* Build configuration list for PBXProject "TIWVector4Value" */;
@@ -229,6 +232,7 @@
 				8492B57813D99A3500B2FF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
