@@ -8,53 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#pragma mark Type definitiion
-
-#define TIWVector4_basetype float
-#define TIWVector4_multiple (4)
-typedef TIWVector4_basetype TIWVector4 __attribute__ ((ext_vector_type(TIWVector4_multiple)));
-
-#pragma mark - TIWVector4Extension category
-
-@interface NSValue (TIWVector4Extension)
-
-+ (NSValue *)valueWithTIWVector4:(TIWVector4)v;
-- (TIWVector4)TIWVector4Value;
-
-@end
-
-@implementation NSValue (TIWVector4Extension)
-
-+ (NSValue *)valueWithTIWVector4:(TIWVector4)v
-{
-	return [NSValue valueWithBytes:&v objCType:@encode(TIWVector4_basetype[TIWVector4_multiple])];
-}
-
-- (TIWVector4)TIWVector4Value
-{
-	TIWVector4 vector;
-	
-	[self getValue:&vector];
-
-	return vector;
-}
-
-- (NSString *)descriptionTIWVector4
-{
-	TIWVector4 vector;
-	
-	[self getValue:&vector];
-	
-	NSString *description = [NSString stringWithFormat:@"TIWVector4: {x:%g, y:%g, z:%g, w:%g}" , vector.x , vector.y , vector.z , vector.w];
-	
-	return description;
-}
-
-@end
-
-#pragma mark - Informal testing
-
-#define LOGVECTOR( V ) NSLog(@"%g %g %g %g" , V.x , V.y , V.z , V.w)
+#import "NSValue+TIWVector4Extension.h"
 
 void testFunction( void );
 
@@ -66,6 +20,10 @@ int main (int argc, const char * argv[])
 	}
     return 0;
 }
+
+#pragma mark - Informal testing
+
+#define LOGVECTOR( V ) NSLog(@"%g %g %g %g" , V.x , V.y , V.z , V.w)
 
 void testFunction( void )
 {

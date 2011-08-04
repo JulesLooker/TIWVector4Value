@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840B637E13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B637D13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m */; };
 		8492B56C13D99A3500B2FF8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492B56B13D99A3500B2FF8C /* Foundation.framework */; };
 		8492B56F13D99A3500B2FF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B56E13D99A3500B2FF8C /* main.m */; };
 		8492B57313D99A3500B2FF8C /* TIWVector4Value.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8492B57213D99A3500B2FF8C /* TIWVector4Value.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		840B637C13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+TIWVector4Extension.h"; sourceTree = "<group>"; };
+		840B637D13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+TIWVector4Extension.m"; sourceTree = "<group>"; };
 		8492B56713D99A3500B2FF8C /* TIWVector4Value */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TIWVector4Value; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492B56B13D99A3500B2FF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8492B56E13D99A3500B2FF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				8492B56E13D99A3500B2FF8C /* main.m */,
 				8492B57213D99A3500B2FF8C /* TIWVector4Value.1 */,
 				8492B57013D99A3500B2FF8C /* Supporting Files */,
+				840B637C13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.h */,
+				840B637D13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m */,
 			);
 			path = TIWVector4Value;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8492B56F13D99A3500B2FF8C /* main.m in Sources */,
+				840B637E13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
