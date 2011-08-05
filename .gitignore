@@ -6,6 +6,7 @@ build/*
 !default.mode1v3
 *.mode2v3
 !default.mode2v3
+*.perspective
 *.perspectivev3
 !default.perspectivev3
 *.xcworkspace
@@ -13,3 +14,6 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+
+#OS X
+.DS_Store
