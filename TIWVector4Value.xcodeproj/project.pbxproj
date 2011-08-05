@@ -8,9 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		840B637E13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B637D13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m */; };
+		8413E92113EBF4EA00D6E822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8413E91F13EBF4EA00D6E822 /* InfoPlist.strings */; };
+		8413E92413EBF4EA00D6E822 /* TIWVector4ValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8413E92313EBF4EA00D6E822 /* TIWVector4ValueTests.m */; };
+		8413E92B13EBF7E000D6E822 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413E92A13EBF7E000D6E822 /* SenTestingKit.framework */; };
+		8413E92F13EBF94300D6E822 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413E92E13EBF94300D6E822 /* Cocoa.framework */; };
 		8492B56C13D99A3500B2FF8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492B56B13D99A3500B2FF8C /* Foundation.framework */; };
 		8492B56F13D99A3500B2FF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B56E13D99A3500B2FF8C /* main.m */; };
+		84FD915F13EC06DE00D80D47 /* NSValue+TIWVector4Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B637D13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FD915C13EC038300D80D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8492B55E13D99A3500B2FF8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8492B56613D99A3500B2FF8C;
+			remoteInfo = TIWVector4Value;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8492B56513D99A3500B2FF8C /* CopyFiles */ = {
@@ -28,6 +43,17 @@
 		840B637C13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+TIWVector4Extension.h"; sourceTree = "<group>"; };
 		840B637D13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+TIWVector4Extension.m"; sourceTree = "<group>"; };
 		840B637F13EAF0F300B61BE7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		8413E91313EBF4EA00D6E822 /* TIWVector4ValueTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIWVector4ValueTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8413E91913EBF4EA00D6E822 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8413E91A13EBF4EA00D6E822 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8413E91B13EBF4EA00D6E822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8413E91E13EBF4EA00D6E822 /* TIWVector4ValueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TIWVector4ValueTests-Info.plist"; sourceTree = "<group>"; };
+		8413E92013EBF4EA00D6E822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8413E92213EBF4EA00D6E822 /* TIWVector4ValueTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIWVector4ValueTests.h; sourceTree = "<group>"; };
+		8413E92313EBF4EA00D6E822 /* TIWVector4ValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIWVector4ValueTests.m; sourceTree = "<group>"; };
+		8413E92513EBF4EA00D6E822 /* TIWVector4ValueTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TIWVector4ValueTests-Prefix.pch"; sourceTree = "<group>"; };
+		8413E92A13EBF7E000D6E822 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8413E92E13EBF94300D6E822 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8492B56713D99A3500B2FF8C /* TIWVector4Value */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TIWVector4Value; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492B56B13D99A3500B2FF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8492B56E13D99A3500B2FF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +61,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8413E90F13EBF4EA00D6E822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8413E92F13EBF94300D6E822 /* Cocoa.framework in Frameworks */,
+				8413E92B13EBF7E000D6E822 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8492B56413D99A3500B2FF8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,11 +81,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8413E91813EBF4EA00D6E822 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8413E91913EBF4EA00D6E822 /* AppKit.framework */,
+				8413E91A13EBF4EA00D6E822 /* CoreData.framework */,
+				8413E91B13EBF4EA00D6E822 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8413E91C13EBF4EA00D6E822 /* TIWVector4ValueTests */ = {
+			isa = PBXGroup;
+			children = (
+				8413E92213EBF4EA00D6E822 /* TIWVector4ValueTests.h */,
+				8413E92313EBF4EA00D6E822 /* TIWVector4ValueTests.m */,
+				8413E91D13EBF4EA00D6E822 /* Supporting Files */,
+			);
+			path = TIWVector4ValueTests;
+			sourceTree = "<group>";
+		};
+		8413E91D13EBF4EA00D6E822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8413E91E13EBF4EA00D6E822 /* TIWVector4ValueTests-Info.plist */,
+				8413E91F13EBF4EA00D6E822 /* InfoPlist.strings */,
+				8413E92513EBF4EA00D6E822 /* TIWVector4ValueTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		8492B55C13D99A3500B2FF8C = {
 			isa = PBXGroup;
 			children = (
 				840B637F13EAF0F300B61BE7 /* ReadMe */,
 				8492B56D13D99A3500B2FF8C /* TIWVector4Value */,
+				8413E91C13EBF4EA00D6E822 /* TIWVector4ValueTests */,
 				8492B56A13D99A3500B2FF8C /* Frameworks */,
 				8492B56813D99A3500B2FF8C /* Products */,
 			);
@@ -60,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				8492B56713D99A3500B2FF8C /* TIWVector4Value */,
+				8413E91313EBF4EA00D6E822 /* TIWVector4ValueTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				8492B56B13D99A3500B2FF8C /* Foundation.framework */,
+				8413E92A13EBF7E000D6E822 /* SenTestingKit.framework */,
+				8413E92E13EBF94300D6E822 /* Cocoa.framework */,
+				8413E91813EBF4EA00D6E822 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,6 +164,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8413E91213EBF4EA00D6E822 /* TIWVector4ValueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8413E92813EBF4EA00D6E822 /* Build configuration list for PBXNativeTarget "TIWVector4ValueTests" */;
+			buildPhases = (
+				8413E90E13EBF4EA00D6E822 /* Sources */,
+				8413E90F13EBF4EA00D6E822 /* Frameworks */,
+				8413E91013EBF4EA00D6E822 /* Resources */,
+				8413E91113EBF4EA00D6E822 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FD915D13EC038300D80D47 /* PBXTargetDependency */,
+			);
+			name = TIWVector4ValueTests;
+			productName = TIWVector4ValueTests;
+			productReference = 8413E91313EBF4EA00D6E822 /* TIWVector4ValueTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		8492B56613D99A3500B2FF8C /* TIWVector4Value */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8492B57613D99A3500B2FF8C /* Build configuration list for PBXNativeTarget "TIWVector4Value" */;
@@ -133,11 +222,48 @@
 			projectRoot = "";
 			targets = (
 				8492B56613D99A3500B2FF8C /* TIWVector4Value */,
+				8413E91213EBF4EA00D6E822 /* TIWVector4ValueTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8413E91013EBF4EA00D6E822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8413E92113EBF4EA00D6E822 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8413E91113EBF4EA00D6E822 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		8413E90E13EBF4EA00D6E822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FD915F13EC06DE00D80D47 /* NSValue+TIWVector4Extension.m in Sources */,
+				8413E92413EBF4EA00D6E822 /* TIWVector4ValueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8492B56313D99A3500B2FF8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,7 +275,50 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		84FD915D13EC038300D80D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8492B56613D99A3500B2FF8C /* TIWVector4Value */;
+			targetProxy = 84FD915C13EC038300D80D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8413E91F13EBF4EA00D6E822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8413E92013EBF4EA00D6E822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		8413E92613EBF4EA00D6E822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TIWVector4ValueTests/TIWVector4ValueTests-Prefix.pch";
+				INFOPLIST_FILE = "TIWVector4ValueTests/TIWVector4ValueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8413E92713EBF4EA00D6E822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TIWVector4ValueTests/TIWVector4ValueTests-Prefix.pch";
+				INFOPLIST_FILE = "TIWVector4ValueTests/TIWVector4ValueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		8492B57413D99A3500B2FF8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -218,6 +387,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8413E92813EBF4EA00D6E822 /* Build configuration list for PBXNativeTarget "TIWVector4ValueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8413E92613EBF4EA00D6E822 /* Debug */,
+				8413E92713EBF4EA00D6E822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8492B56113D99A3500B2FF8C /* Build configuration list for PBXProject "TIWVector4Value" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

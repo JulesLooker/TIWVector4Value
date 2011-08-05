@@ -44,23 +44,4 @@ void testFunction( void )
 	LOGVECTOR( bVector );
 	NSLog(@"%@" , [bVectorValue descriptionTIWVector4]);
 	
-	// NSCoding
-	NSData *coded = [NSArchiver archivedDataWithRootObject:aVectorValue];
-	NSValue *uncoded  = [NSUnarchiver unarchiveObjectWithData:coded];
-	NSLog(@"uncoded %@" , [uncoded descriptionTIWVector4]);
-	
-	// NSCoding keyed
-	NSData *keyCoded = [NSKeyedArchiver archivedDataWithRootObject:bVectorValue];
-	NSValue *unKeyCoded = [NSKeyedUnarchiver unarchiveObjectWithData:keyCoded];
-	NSLog(@"unKeyCoded %@" , [unKeyCoded descriptionTIWVector4]);
-	
-	// NSCopying
-	NSValue *copy = [aVectorValue copy];
-	NSLog(@"copy %@" , [copy descriptionTIWVector4]);
-	
-	// Equality confirmation
-	NSLog(@"a equal a 1 == %d" , [aVectorValue isEqualToValue:aVectorValue]);
-	NSLog(@"a equal b 0 == %d" , [aVectorValue isEqualToValue:bVectorValue]);
-	NSLog(@"a equal copy 1 == %d" , [aVectorValue isEqualToValue:copy]);
-	NSLog(@"b equal copy 0 == %d" , [bVectorValue isEqualToValue:copy]);
 }
