@@ -11,16 +11,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8413E91213EBF4EA00D6E822"
-               BuildableName = "TIWVector4ValueTests.octest"
-               BlueprintName = "TIWVector4ValueTests"
-               ReferencedContainer = "container:TIWVector4Value.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

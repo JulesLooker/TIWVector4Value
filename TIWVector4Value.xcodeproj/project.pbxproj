@@ -12,6 +12,7 @@
 		8413E92413EBF4EA00D6E822 /* TIWVector4ValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8413E92313EBF4EA00D6E822 /* TIWVector4ValueTests.m */; };
 		8413E92B13EBF7E000D6E822 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413E92A13EBF7E000D6E822 /* SenTestingKit.framework */; };
 		8413E92F13EBF94300D6E822 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413E92E13EBF94300D6E822 /* Cocoa.framework */; };
+		8482E79213ED545500A8B70F /* TIWVector4ValueProof.m in Sources */ = {isa = PBXBuildFile; fileRef = 8482E79113ED545500A8B70F /* TIWVector4ValueProof.m */; };
 		8492B56C13D99A3500B2FF8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492B56B13D99A3500B2FF8C /* Foundation.framework */; };
 		8492B56F13D99A3500B2FF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B56E13D99A3500B2FF8C /* main.m */; };
 		84FD915F13EC06DE00D80D47 /* NSValue+TIWVector4Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 840B637D13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m */; };
@@ -54,6 +55,8 @@
 		8413E92513EBF4EA00D6E822 /* TIWVector4ValueTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TIWVector4ValueTests-Prefix.pch"; sourceTree = "<group>"; };
 		8413E92A13EBF7E000D6E822 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8413E92E13EBF94300D6E822 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8482E79013ED545500A8B70F /* TIWVector4ValueProof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIWVector4ValueProof.h; sourceTree = "<group>"; };
+		8482E79113ED545500A8B70F /* TIWVector4ValueProof.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIWVector4ValueProof.m; sourceTree = "<group>"; };
 		8492B56713D99A3500B2FF8C /* TIWVector4Value */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TIWVector4Value; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492B56B13D99A3500B2FF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8492B56E13D99A3500B2FF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 			children = (
 				8413E92213EBF4EA00D6E822 /* TIWVector4ValueTests.h */,
 				8413E92313EBF4EA00D6E822 /* TIWVector4ValueTests.m */,
+				8482E79013ED545500A8B70F /* TIWVector4ValueProof.h */,
+				8482E79113ED545500A8B70F /* TIWVector4ValueProof.m */,
 				8413E91D13EBF4EA00D6E822 /* Supporting Files */,
 			);
 			path = TIWVector4ValueTests;
@@ -261,6 +266,7 @@
 			files = (
 				84FD915F13EC06DE00D80D47 /* NSValue+TIWVector4Extension.m in Sources */,
 				8413E92413EBF4EA00D6E822 /* TIWVector4ValueTests.m in Sources */,
+				8482E79213ED545500A8B70F /* TIWVector4ValueProof.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
