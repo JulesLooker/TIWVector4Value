@@ -10,22 +10,22 @@
 
 #import "NSValue+TIWVector4Extension.h"
 
-void testFunction( void );
+void simpleDemo( void );
 
 int main (int argc, const char * argv[])
 {
 	@autoreleasepool
 	{
-		testFunction();
+		simpleDemo();
 	}
     return 0;
 }
 
-#pragma mark - Informal testing
+#pragma mark - Informal demo
 
 #define LOGVECTOR( V ) NSLog(@"%g %g %g %g" , V.x , V.y , V.z , V.w)
 
-void testFunction( void )
+void simpleDemo( void )
 {
 	// Test data
 	TIWVector4 aVector = { 1.1 , 2.3 , 3.5 , 4.8 };
@@ -44,4 +44,10 @@ void testFunction( void )
 	LOGVECTOR( bVector );
 	NSLog(@"%@" , [bVectorValue descriptionTIWVector4]);
 	
+	// Retrieve TIWVector4 from NSValue object
+	TIWVector4 cVector = [aVectorValue TIWVector4Value];
+	LOGVECTOR(cVector);
+	
+	// Retrieve a single component from NSValue object
+	NSLog(@"y = %g" , [aVectorValue TIWVector4Value].y);
 }

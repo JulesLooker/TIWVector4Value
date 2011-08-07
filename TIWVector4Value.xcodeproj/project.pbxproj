@@ -59,7 +59,7 @@
 		8482E79113ED545500A8B70F /* TIWVector4ValueProof.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIWVector4ValueProof.m; sourceTree = "<group>"; };
 		8492B56713D99A3500B2FF8C /* TIWVector4Value */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TIWVector4Value; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492B56B13D99A3500B2FF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8492B56E13D99A3500B2FF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8492B56E13D99A3500B2FF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TIWVector4Value/main.m; sourceTree = "<group>"; };
 		8492B57113D99A3500B2FF8C /* TIWVector4Value-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TIWVector4Value-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				840B637F13EAF0F300B61BE7 /* ReadMe */,
+				8492B56E13D99A3500B2FF8C /* main.m */,
 				8492B56D13D99A3500B2FF8C /* TIWVector4Value */,
 				8413E91C13EBF4EA00D6E822 /* TIWVector4ValueTests */,
 				8492B56A13D99A3500B2FF8C /* Frameworks */,
@@ -150,7 +151,6 @@
 		8492B56D13D99A3500B2FF8C /* TIWVector4Value */ = {
 			isa = PBXGroup;
 			children = (
-				8492B56E13D99A3500B2FF8C /* main.m */,
 				840B637C13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.h */,
 				840B637D13EAE32C00B61BE7 /* NSValue+TIWVector4Extension.m */,
 				8492B57013D99A3500B2FF8C /* Supporting Files */,

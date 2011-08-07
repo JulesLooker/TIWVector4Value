@@ -1,4 +1,4 @@
-The TIWVector4Value category adds support for 4 float component vectors as an NSValue.
+The TIWVector4Value category adds support for 4 float component vectors to NSValue.
 
 Implementation is in:
 
@@ -6,5 +6,3 @@ Implementation is in:
 	NSValue+TIWVector4Extension.m
 
 The LLVM CLang ext_vector_type language extension is required.
-
-Simple testing / demonstration is present in testFunction() of main.m.
